@@ -26,6 +26,8 @@
 
 ## Log
 - YYYY-MM-DD: …
+- 2026-11-16: Read project instructions and workflow. No project task specified; phase checklist unchanged. Next step: clarify the requested work.
+- 2026-11-16: Added Codex repository instructions, launch/resume and REA MCP setup documentation, and client-neutral REA discovery guidance. Checked MCP command syntax against the installed Codex CLI and reviewed documentation links and whitespace. Translation phases are unchanged; next step is ROM setup for a chosen game. REA connectivity and in-game behavior were not tested for this documentation change.
 
 ## Open questions / known issues
 -
