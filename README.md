@@ -6,7 +6,7 @@ Tested by rebuilding the Spirit Tracks and SoulSilver translations from their so
 unpacked ROM contents come out identical to the originals.
 
 ## Quick start
-1. Copy this folder: `cp -r ds-ro-template my-game-ro && cd my-game-ro`
+1. Copy this folder: `cp -r nds-ro-translator my-game-ro && cd my-game-ro`
 2. Put your own legally dumped ROM into `rom/` (exactly one `.nds`).
 3. Open Claude Code in the folder and say: *"Read CLAUDE.md and start the translation."*
    The agent follows `guides/00_WORKFLOW.md`:
