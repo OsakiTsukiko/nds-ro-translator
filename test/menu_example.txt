@@ -1,0 +1,10 @@
+# Example: from a savestate in the field, open the pause menu and screenshot it.
+load out/field.state
+wait 30
+press START
+wait 40
+shot pause
+press DOWN
+wait 10
+shot pause_down
+press B

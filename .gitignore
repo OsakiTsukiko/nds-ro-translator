@@ -1,0 +1,10 @@
+*.nds
+*.sav
+*.dsv
+*.state
+work/ext/
+work/build/
+work/fonts/
+work/gfx_out/
+out/
+__pycache__/

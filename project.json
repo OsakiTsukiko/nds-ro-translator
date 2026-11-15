@@ -1,0 +1,58 @@
+{
+  "_help": "Per-game settings. Fill in during recon (guides/01_RECON_WITH_REA.md). Paths are relative to work/ext/ unless noted.",
+  "game": "TODO: game title",
+  "rom": "",
+  "output_name": "TODO Game (RO)",
+  "format": "bmg",
+  "layout": {
+    "box_lines": 3,
+    "max_width": 206,
+    "var_width": 54
+  },
+  "bmg": {
+    "_help": "Nintendo EAD BMG (MESGbmg1, UTF-16). Zelda PH/ST, many first-party EAD titles.",
+    "message_globs": [
+      "data/English/Message/*.bmg"
+    ],
+    "extra_files": [],
+    "copy_to_langs": [],
+    "font_globs": [
+      "data/Font/*.nftr"
+    ],
+    "measure_font": "",
+    "var_code_prefixes": [
+      "{fe"
+    ],
+    "ignore_codes": [
+      "{ff0000"
+    ],
+    "compare_prefix": {
+      "{0401": 11
+    },
+    "timed_page_codes": [
+      "{000f"
+    ],
+    "choice_regex": "\\{000[0-3]0[0-3]\\}"
+  },
+  "g4": {
+    "_help": "Pokemon Gen IV encrypted message NARC (HGSS paths shown). Verify paths for DP/Pt with REA.",
+    "message_narc": "data/a/0/2/7",
+    "font_narc": "data/a/0/1/6",
+    "font_indices": [
+      0,
+      1,
+      2,
+      4,
+      10
+    ],
+    "measure_font_index": 0,
+    "namelists": [],
+    "namemax": {},
+    "inline_files": [],
+    "allow_wide": [],
+    "namelen": {}
+  },
+  "custom": {
+    "_help": "Settings for tools/adapters/custom.py when you write a new codec for an unknown format."
+  }
+}

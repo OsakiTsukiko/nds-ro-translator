@@ -1,0 +1,10 @@
+wait 600
+shot t10
+wait 600
+shot t20
+press START
+wait 300
+shot t25
+press A
+wait 200
+shot t28

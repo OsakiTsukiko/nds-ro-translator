@@ -1,0 +1,36 @@
+{
+  "game": "The Legend of Zelda: Phantom Hourglass (EUR, AZEP)",
+  "rom": "",
+  "output_name": "Zelda Phantom Hourglass (RO)",
+  "format": "bmg",
+  "layout": {
+    "box_lines": 3,
+    "max_width": 206,
+    "var_width": 54
+  },
+  "bmg": {
+    "_help": "Nintendo EAD BMG (MESGbmg1, UTF-16). Zelda PH/ST, many first-party EAD titles.",
+    "message_globs": [
+      "data/English/Message/*.bmg"
+    ],
+    "extra_files": [],
+    "copy_to_langs": [],
+    "font_globs": [
+      "data/Font/*.nftr"
+    ],
+    "measure_font": "data/Font/zeldaDS_15.nftr",
+    "var_code_prefixes": [
+      "{fe"
+    ],
+    "ignore_codes": [
+      "{ff0000"
+    ],
+    "compare_prefix": {
+      "{0401": 11
+    },
+    "timed_page_codes": [
+      "{000f"
+    ],
+    "choice_regex": "\\{000[0-3]0[0-3]\\}"
+  }
+}
