@@ -1,9 +1,6 @@
 # DS → Romanian translation template (REA + AI)
 
 A starting point for translating Nintendo DS games into Romanian with an AI agent (Claude Code + REA MCP).
-Extracted from the Zelda: Phantom Hourglass, Zelda: Spirit Tracks and Pokémon SoulSilver Romanian projects.
-Tested by rebuilding the Spirit Tracks and SoulSilver translations from their sources: the text and the
-unpacked ROM contents come out identical to the originals.
 
 ## Quick start
 1. Copy this folder: `cp -r nds-ro-translator my-game-ro && cd my-game-ro`
